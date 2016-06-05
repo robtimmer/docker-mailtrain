@@ -1,6 +1,7 @@
 FROM ubuntu:14.04
-EXPOSE 3000
+MAINTAINER rob@robtimmer.com
 
+EXPOSE 3000
 VOLUME ["/opt/mailtrain"]
 
 RUN apt-get update
